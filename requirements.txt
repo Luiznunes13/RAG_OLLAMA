@@ -1,0 +1,33 @@
+# --- Core Application Dependencies ---
+# Frameworks, UI, and AI integrations
+gradio
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+
+# Vector Database
+chromadb
+
+# --- Document Loader Dependencies (Choose what you need) ---
+
+# For .pdf files (standard text-based PDFs)
+pypdf
+
+# For .docx files
+docx2txt
+
+# For .xlsx, .pptx, and other complex files.
+# Using 'unstructured' with extras is recommended.
+# For Excel (.xlsx):
+unstructured[xlsx]
+# For PowerPoint (.pptx):
+unstructured[pptx]
+
+# --- Optional: OCR Dependencies for Scanned PDFs ---
+# Only include these if you need to process image-based PDFs.
+# This also requires Tesseract to be installed on the system.
+PyMuPDF
+pytesseract
+Pillow
+
